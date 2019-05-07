@@ -1,0 +1,28 @@
+﻿  ppm_format.cpp
+d:\petro\desktop\filter\filter\ppm_format.cpp(70): warning C4244: 'initializing': conversion from 'std::streamoff' to 'std::size_t', possible loss of data
+d:\petro\desktop\filter\filter\ppm_format.cpp(100): warning C4018: '<': signed/unsigned mismatch
+d:\petro\desktop\filter\filter\ppm_format.cpp(130): warning C4018: '<': signed/unsigned mismatch
+  MedianFilter.cpp
+d:\petro\desktop\filter\filter\regionfilter.h(54): warning C4018: '>=': signed/unsigned mismatch
+  Image.cpp
+d:\petro\desktop\filter\filter\array.hpp(78): warning C4018: '>=': signed/unsigned mismatch
+  d:\petro\desktop\filter\filter\array.hpp(77): note: while compiling class template member function 'const imaging::Color &math::Array<imaging::Color>::operator ()(int,int) const'
+  d:\petro\desktop\filter\filter\image.cpp(29): note: see reference to function template instantiation 'const imaging::Color &math::Array<imaging::Color>::operator ()(int,int) const' being compiled
+  d:\petro\desktop\filter\filter\image.h(15): note: see reference to class template instantiation 'math::Array<imaging::Color>' being compiled
+d:\petro\desktop\filter\filter\array.hpp(69): warning C4018: '>=': signed/unsigned mismatch
+  d:\petro\desktop\filter\filter\array.hpp(68): note: while compiling class template member function 'imaging::Color &math::Array<imaging::Color>::operator ()(int,int)'
+  d:\petro\desktop\filter\filter\image.cpp(33): note: see reference to function template instantiation 'imaging::Color &math::Array<imaging::Color>::operator ()(int,int)' being compiled
+  GrayFilter.cpp
+  filter.cpp
+d:\petro\desktop\filter\filter\regionfilter.h(54): warning C4018: '>=': signed/unsigned mismatch
+  DiffFilter.cpp
+d:\petro\desktop\filter\filter\regionfilter.h(54): warning C4018: '>=': signed/unsigned mismatch
+  ColorFilter.cpp
+  BlurFilter.cpp
+d:\petro\desktop\filter\filter\regionfilter.h(54): warning C4018: '>=': signed/unsigned mismatch
+d:\petro\desktop\filter\filter\blurfilter.cpp(28): warning C4244: 'argument': conversion from 'unsigned int' to 'imaging::component_t', possible loss of data
+  Generating Code...
+d:\petro\desktop\filter\filter\array.hpp(80): warning C4172: returning address of local variable or temporary: value
+d:\petro\desktop\filter\filter\array.hpp(71): warning C4172: returning address of local variable or temporary: value
+  filter.vcxproj -> D:\petro\Desktop\filter\Debug\filter.exe
+  filter.vcxproj -> D:\petro\Desktop\filter\Debug\filter.pdb (Partial PDB)
